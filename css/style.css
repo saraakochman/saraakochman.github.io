@@ -89,6 +89,7 @@ h4 {
 	text-decoration: none;
 	color: #2A282D;
 	padding: 20px;
+	z-index: 1;
 }
 
 .nav-menu a:hover {
@@ -645,6 +646,7 @@ input[type=submit]:hover {
 
 .nav-menu {
 	padding: 20px 20px 7px 10px;
+	z-index: 1;
 }
 
 .nav-menu li {
