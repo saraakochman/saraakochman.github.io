@@ -95,7 +95,7 @@ h4 {
 	color: #CEB299;
 }
 
-#navColor {
+.navColor {
     background-color: white;
     z-index: 1;
 }
