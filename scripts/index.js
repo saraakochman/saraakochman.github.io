@@ -22,7 +22,7 @@ $(document).ready(function(){
    $(window).scroll(function(changeColor) {
       if ($(this).scrollTop() > 115) {
          $(".nav-menu").addClass("#navColor")
-      } else ($(this).scrollTop() < 115) {
+      } else ($(this).scrollTop() < 115)
          $(".nav-menu").removeClass("#navColor")
       }
    });
