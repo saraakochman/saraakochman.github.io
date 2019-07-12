@@ -21,7 +21,7 @@ $(document).ready(function(){
    $(window).on('scroll', function() {
       if ($(this).scrollTop() > 0) {
          $(".nav-menu").addClass("navColor")
-      } else if ($(this).scrollTop() < 0)
+      } if ($(this).scrollTop() < 10)
          $(".nav-menu").removeClass("navColor")
     });
 
