@@ -563,7 +563,6 @@ input[type=submit]:hover {
 	.hero-banner {
 	height: 650px;
 	flex-direction: column;
-	background-image: url("../../vk_creations/images/homepage/vk_hero-banner.jpg");
   	background-position: center;
  	background-repeat: no-repeat;
   	background-size: cover;
@@ -694,7 +693,6 @@ input[type=submit]:hover {
 .hero-banner {
 	height: 650px;
 	flex-direction: column;
-	background-image: url("../../vk_creations/images/homepage/vk_hero-banner.jpg");
   	background-position: center;
  	background-repeat: no-repeat;
   	background-size: cover;
