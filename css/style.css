@@ -238,7 +238,7 @@ button.slick-next:before, .slick-arrow:before {
 
 .about-background-image {
 	height: 600px;
-	background-image: url("../../vk_creations/images/homepage/vk_about.jpg");
+	background-image: url("../images/homepage/vk_about.jpg");
  	background-repeat: no-repeat; /* Do not repeat the image */
   	background-size: contain;
   	width: 100%;
