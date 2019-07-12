@@ -18,13 +18,12 @@ $(document).ready(function(){
 	}
   });
 
-   $(window).scroll(function() {
-      if ($(this).scrollTop() > 115) {
-         $(".nav-menu").addClass(".navColor")
-      } 
-      if ($(this).scrollTop() < 115)
-         $(".nav-menu").removeClass(".navColor")
-      });
+   $(window).on('scroll', function() {
+      if ($(this).scrollTop() > 0) {
+         $(".nav-menu").addClass("navColor")
+      } else if ($(this).scrollTop() < 0)
+         $(".nav-menu").removeClass("navColor")
+    });
 
 
 
