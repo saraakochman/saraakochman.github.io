@@ -37,6 +37,7 @@ $(document).ready(function() {
 		var $modalContent = $('.modal-content');
 
 		var secondImage = product.secondImage;
+		console.log(secondImage);
 
 		var $modalImage = $('.secondary-image img');
 		$modalImage.attr('src', secondImage);
@@ -66,6 +67,15 @@ $(document).ready(function() {
 		var $description = $('.product-info #description');
 		$description.text(description);
 	};
+
+		// SLICK
+	// $('.slick-modal').slick({
+	//   infinite: true,
+	//   slidesToShow: 1,
+	//   slidesToScroll: 1,
+	//   dots: true,
+	//   arrows: false,
+	// });
 
 		$(document).on('click', '.work', function(event) {
 			$('#productModal').show();

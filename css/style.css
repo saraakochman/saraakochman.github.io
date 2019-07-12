@@ -417,6 +417,10 @@ button.slick-next:before, .slick-arrow:before {
     padding: 20px 0px 20px 20px;
 }
 
+/*.slick-modal {
+	width: 60%;
+}*/
+
 .product-info {
     display: flex;
     flex-direction: column;

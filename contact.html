@@ -65,7 +65,14 @@
     <label for="subject">Subject</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-    <input type="submit" id="submit" value="Submit" action="mailto:saraakochman@gmail.com">
+    <input type="hidden" name="_subject" value="New contact form message">
+    <input type="hidden" name="_after" value="https://saraakochman.github.io/contact.html">
+    <input type="hidden" name="_honeypot" value="">    
+    <input type="hidden" name="_confirmation" value="Thank you! We will be in touch shortly.">
+    <input type="submit" id="submit" value="Submit">
+
+
+
 
   </form>
 </div>
