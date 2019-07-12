@@ -18,16 +18,14 @@ $(document).ready(function(){
 	}
   });
 
-  $(function(changeColor) {
-   $(window).scroll(function(changeColor) {
+   $(window).scroll(function() {
       if ($(this).scrollTop() > 115) {
          $(".nav-menu").addClass(".navColor")
       } 
       if ($(this).scrollTop() < 115)
          $(".nav-menu").removeClass(".navColor")
-      })
-   });
-});
+      });
+
 
 
 // SLICK
@@ -58,4 +56,5 @@ $('.slick').slick({
   ]
 });
 
+})
 
