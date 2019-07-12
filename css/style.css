@@ -110,7 +110,7 @@ h4 {
 	height: 700px;
 	flex-direction: column;
 /*	background-color: tan;
-*/	background-image: url("/../images/homepage/vk_hero-banner.jpg");
+*/	background-image: url("vk_hero-banner.jpg");
 /*  	background-position: center; /* Center the image */
  	background-repeat: no-repeat; /* Do not repeat the image */
   	background-size: contain;
