@@ -18,6 +18,16 @@ $(document).ready(function(){
 	}
   });
 
+  $(function(changeColor) {
+   $(window).scroll(function(changeColor) {
+      if ($(this).scrollTop() > 115) {
+         $(".nav-menu").addClass("#navColor")
+      } else ($(this).scrollTop() < 115) {
+         $(".nav-menu").removeClass("#navColor")
+      }
+   });
+});
+
 
 // SLICK
 $('.slick').slick({
@@ -49,3 +59,4 @@ $('.slick').slick({
 
 
 })
+

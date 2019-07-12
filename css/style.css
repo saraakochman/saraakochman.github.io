@@ -66,11 +66,19 @@ h4 {
 	font-size: 20px;
 }
 
+.main {
+	margin-top: 115px;
+}
+
 
 /*NAV MENU*/
 .nav-menu {
 	width: 100%;
 	padding: 20px 20px 20px 10px;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	transition: top 0.3s;
 }
 
 .nav-menu li {
@@ -85,6 +93,11 @@ h4 {
 
 .nav-menu a:hover {
 	color: #CEB299;
+}
+
+#navColor {
+    background-color: white;
+    z-index: 1;
 }
 
 .nav-logo {
