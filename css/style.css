@@ -285,6 +285,35 @@ button.slick-next:before, .slick-arrow:before {
 	line-height: 20px;
 }
 
+.about-right {
+	height: 400px;
+}
+
+.about-container-right {
+	background-color: #EDEAE8;
+	width: 40%;
+	justify-content: flex-end/*	margin: 100px 0px 30px 115px;
+*/	border-radius: 5px;
+	padding: 50px;
+}
+
+.about-container-right h1 {
+	color: #4A4851;
+	padding: 20px 0px;
+}
+
+.about-container-right p {
+	color: #2A282D;
+	font-size: 14px;
+	padding-right: 80px;
+	line-height: 20px;
+}
+
+.about-left {
+	height: 400px;
+
+}
+
 
 /*FOOTER*/
 .footer-menu {
