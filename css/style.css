@@ -338,8 +338,6 @@ button.slick-next:before, .slick-arrow:before {
 }
 
 
-
-
 /*GALLERY PAGE*/
 .gallery {
 	width: 100%;
@@ -352,6 +350,7 @@ button.slick-next:before, .slick-arrow:before {
 	width: 30%;
 	margin: 20px;
 	position: relative;
+	border: 3px solid #EDEAE8;
 }
 
 .work img {
@@ -395,7 +394,7 @@ button.slick-next:before, .slick-arrow:before {
 }
 
 .modal-content {
-  background-color: #fefefe;
+  background-color: #fff;
   margin: 30px auto;
   padding: 10px;
   display: flex;
