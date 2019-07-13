@@ -613,13 +613,15 @@ input[type=submit]:hover {
 .work {
 	width: 30%;
 	margin: 10px;
+    border: 3px solid white;
 }
 
 .work-hover {
 	color: #2A282D;
 	font-size: 14px;
 	font-weight: 600;
-	padding-bottom: 2m0px;
+	padding-bottom: 20px;
+	margin-top: 20px;
 }
 
 .work-hover:hover {
@@ -668,7 +670,7 @@ input[type=submit]:hover {
 
 
 /*MOBILE*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
 /*NAVIGATION*/
 /*NAV MENU*/
 
@@ -696,11 +698,12 @@ input[type=submit]:hover {
 	position: absolute;
   	right:0;
   	z-index:1;
+  	width: 200px;
 }
 
 #mobile-nav-links li {
 	background-color: #4A4851;
-	border-bottom: 1px solid #EDEAE8;
+	border-top: 1px solid #EDEAE8;
 }
 
 #mobile-nav-links a {
@@ -796,6 +799,7 @@ input[type=submit]:hover {
 .work {
 	width: 45%;
 	margin: 10px;
+    border: 3px solid white;
 }
 
 .work-hover:hover {
@@ -806,6 +810,7 @@ input[type=submit]:hover {
 .work-hover {
 	color: #2A282D;
 	padding-bottom: 20px;
+    margin-top: 15px;
 
 }
 
