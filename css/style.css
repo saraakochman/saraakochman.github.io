@@ -468,6 +468,7 @@ button.slick-next:before, .slick-arrow:before {
 	background-image: url("../images/about/vk_allthree.jpg");
  	background-repeat: no-repeat; /* Do not repeat the image */
   	background-size: contain;
+  	margin-bottom: 70px;
 }
 
 .about-about-image {
@@ -609,7 +610,6 @@ input[type=submit]:hover {
 
 input[type=submit]:focus {
 	outline: none;
-	border: none;
 }
 
 
@@ -781,6 +781,7 @@ input[type=submit]:focus {
 	padding: 0px 50px;
 	line-height: 30px;
 	text-align: center;
+	margin-top: 60px;
 }
 
 /*HOMEPAGE ABOUT SECTION*/
@@ -795,11 +796,13 @@ input[type=submit]:focus {
   	background-size: cover;
 	background-position: right;
 	height: 500px;
+	margin-bottom: 150px;
+	margin-top: 30px;
 }
 
 .about-background-image > .button {
 	margin: 0 auto;
-	padding: 20px 0px;
+	padding: 10px 0px;
 }
 
 .about-container {
@@ -822,7 +825,7 @@ input[type=submit]:focus {
 /*ABOUT PAGE*/
 
 .about-process-image {
-	height: 500px;
+	height: 475px;
   	background-size: cover;
   	background-position: left;
 }
@@ -831,10 +834,11 @@ input[type=submit]:focus {
 	height: 400px;
   	background-size: cover;
   	background-position: center;
+  	margin-bottom: 50px;
 }
 
 .about-about-image {
-	height: 500px;
+	height: 475px;
   	background-size: cover;
   	background-position: right;
 }
@@ -842,7 +846,7 @@ input[type=submit]:focus {
 .about-tile {
 	width: 80%;
 	align-items: center;
-	height: 300px;
+	height: 250px;
 }
 
 .about-tile h1 {
@@ -851,21 +855,21 @@ input[type=submit]:focus {
 
 .about-tile p {
 	text-align: left;
-	padding: 0px 50px;
+	padding: 0px 30px;
 }
 
 .tile-left {
 	padding: 0px 0px 15px 0px;
 	float: none;
 	margin: 0 auto;
-	margin-top: 400px;
+	margin-top: 350px;
 	margin-bottom: 30px;
 }
 
 .tile-right {
 	float: none;
 	margin: 0 auto;
-	margin-top: 400px;
+	margin-top: 350px;
 	padding: 0px 0px 15px 0px;
 	margin-bottom: 30px;
 
