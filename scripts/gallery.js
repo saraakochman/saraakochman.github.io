@@ -37,7 +37,10 @@ $(document).ready(function() {
 		var $modalContent = $('.modal-content');
 
 		var secondImage = product.secondImage;
-		console.log(secondImage);
+		// var slickImages = product.slickImages;
+
+		// var $slickImages = $('.slick-images');
+		// $slickImages.attr(slickImages);
 
 		var $modalImage = $('.secondary-image img');
 		$modalImage.attr('src', secondImage);
@@ -66,22 +69,26 @@ $(document).ready(function() {
 
 		var $description = $('.product-info #description');
 		$description.text(description);
-	};
 
-		// SLICK
-	// $('.slick-modal').slick({
-	//   infinite: true,
-	//   slidesToShow: 1,
-	//   slidesToScroll: 1,
-	//   dots: true,
-	//   arrows: false,
-	// });
+		// $('.slick-images').slick({
+		// 	  infinite: true,
+		// 	  slidesToShow: 1,
+		// 	  slidesToScroll: 1,
+		// 	  dots: true,
+		// 	  arrows: false,
+		// 	});
+
+		// $('.slick-images').slick('getSlick');
+
+		// $('.slick-images').slick('unslick')
+	};
 
 		$(document).on('click', '.work', function(event) {
 			$('#productModal').show();
 
 			var id = $(this).attr('data-id');
 			setupModal(productData[id]);
+
 		});
 
 		$(document).on('click', '.close', function(event) {

@@ -2,6 +2,11 @@ var productData = {
 	"bowl_1": {
 		"mainImage": "images/gallery/bowl_1.jpg",
 		"secondImage": "images/gallery/bowl_1.jpg",
+		"slickImages": [
+			"images/gallery/bowl_2.jpg",
+			"images/gallery/bowl_3.jpg",
+			"images/gallery/bowl_5.jpg"
+			],
 		"woodType": "Cherry",
 		"finishType": "Walnut Oil",
 		"width": '5.75"',
@@ -20,7 +25,6 @@ var productData = {
 		"depth": '1.75"',
 		"description": 'A general use bowl from a wild cherry tree killed by flood waters a few years before the tree was cut down.  The grain and striations in the wood are amazing.  The tree came from Rock Valley, Iowa.',
 		"productId": "bowl_2",
-
 	},
 	"bowl_3": {
 		"mainImage": "images/gallery/bowl_3.jpg",
@@ -54,7 +58,6 @@ var productData = {
 		"depth": '1.25"',
 		"description": 'This bowl comes from a pine tree from my back yard in NW Iowa which had died of unknown reasons.  Note the blue pine on the edge which is caused by a fungus.  The live edges add to the character of the piece.  A small round bowl on a rectangular footprint.',
 		"productId": "bowl_5",
-
 	},
 	"bowl_6": {
 		"mainImage": "images/gallery/bowl_6.jpg",
@@ -133,5 +136,5 @@ var productData = {
 		"depth": '2"',
 		"description": 'General bowl, from a huge black walnut tree rescued from a tree dump.  Part of the tree was actually on fire when it was pulled from the pile.  Bottom of the trunk was 32 inches in diameter with a very small void in the center; first existing branch was at the 12 foot mark up the trunk. This bowl received several coats of tung oil and is polished to a high shine to show off the grain and natural beauty of the wood.',
 		"productId": "bowl_12",
-	},
+	}
 }
